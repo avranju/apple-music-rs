@@ -1,0 +1,15 @@
+[package]
+name = "apple-music-rs"
+version = "0.1.0"
+authors = ["Rajasekharan Vengalil <avranju@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+biscuit = "0.4"
+pem = "0.7"
+ring = "0.16"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+surf = "1.0"
